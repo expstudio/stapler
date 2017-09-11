@@ -1,12 +1,12 @@
 {
-    "name": "codesleeve/stapler",
-    "description": "Elegant and simple ORM-based file upload package for php.",
+    "name": "expstudio/stapler",
+    "description": "Fix AWS 3.0 version of Elegant and simple ORM-based file upload package for php.",
     "keywords": ["ORM", "file", "upload", "S3", "AWS", "paperclip"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Travis Bennett",
-            "email": "tandrewbennett@hotmail.com"
+            "name": "Watee Wichiennit",
+            "email": "waycs16@gmail.com"
         }
     ],
     "require": {
@@ -17,7 +17,7 @@
     },
     "require-dev": {
         "mockery/mockery": "0.8.0",
-        "aws/aws-sdk-php": "2.4.*@dev",
+        "aws/aws-sdk-php": "~3.0",
         "illuminate/database": "4.*|5.*",
         "illuminate/config": "4.*|5.*"
     },
